@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 export default class Portfolio extends Component {
   constructor(props) {
@@ -21,9 +22,9 @@ export default class Portfolio extends Component {
   render() {
     let repoData = this.state.repos.map((repo)=> {
       return <div key={repo.id} className="singleRepo">
-              <h3>Project: {repo.name}</h3>
-              <h5><a href={repo.html_url}>Repo Url: {repo.html_url}</a></h5>
-
+              <h2 className="repo_name">{repo.name}</h2>
+              <h5 className="language">Language: {repo.language}</h5>
+              <h5 className="button"><a href={repo.html_url}>Check it out</a></h5>
              </div>
     })
     return(

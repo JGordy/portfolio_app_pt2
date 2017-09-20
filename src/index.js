@@ -13,11 +13,13 @@ import Portfolio from './components/Portfolio';
 ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
-      <Switch>
-        <Route path='/About' component={About}/>
-        <Route path='/Portfolio' component={Portfolio}/>
-        <Route path='/' component={Home}/>
-      </Switch>
+      <App>
+        <Switch>
+          <Route path='/About' component={About}/>
+          <Route path='/Portfolio' component={Portfolio}/>
+          <Route path='/' component={Home}/>
+        </Switch>
+      </App>  
     </BaseLayout>
   </BrowserRouter>
   , document.getElementById('root'));
