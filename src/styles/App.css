@@ -147,6 +147,12 @@ h3 {
   width: 350px;
 }
 
+.date {
+  color: slategray;
+  font-size: 16px;
+  font-style: italic;
+}
+
 .event_info {
   display: flex;
   flex-flow: column nowrap;
