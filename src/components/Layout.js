@@ -12,19 +12,19 @@ export default class BaseLayout extends Component {
     let navStyle = {
       textDecoration: 'none',
       textTransform: 'uppercase',
-      margin: '5px 8px',
+      margin: '0px 8px',
       padding: '5px 0px'
     }
     return (
       <div className="App">
         <header style={headerStyle}>
           <h1>Joe Gordy</h1>
-          <nav style={navStyle}>
-            <NavLink style={navStyle} to='/'>Home</NavLink>
-            <NavLink style={navStyle} to='/About'>About</NavLink>
-            <NavLink style={navStyle} to='/Portfolio'>Portfolio</NavLink>
-          </nav>
         </header>
+        <nav>
+        <NavLink style={navStyle} to='/'>Home</NavLink>
+        <NavLink style={navStyle} to='/About'>About</NavLink>
+        <NavLink style={navStyle} to='/Portfolio'>Portfolio</NavLink>
+        </nav>
         {this.props.children}
       </div>
     );
