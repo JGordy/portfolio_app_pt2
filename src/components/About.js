@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return(
       <div className='about'>
-        <h2>My non work / school related recent events</h2>
+        <h2 className="event_heading">Some of my recent non work / school related events</h2>
         <div className="event_container">
           <img className="fitz" src={require("../images/Fitz.jpg")}/>
           <div className="event_info">

@@ -10,7 +10,6 @@ export default class BaseLayout extends Component {
     }
 
     let navStyle = {
-      color: 'lightgray',
       textDecoration: 'none',
       textTransform: 'uppercase',
       margin: '5px 8px',

@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
     let repoData = this.state.repos.map((repo)=> {
       return <div key={repo.id} className="singleRepo">
               <h2 className="repo_name">{repo.name}</h2>
-              <h5 className="language">Language: {repo.language}</h5>
+              <h5 className="language">Language: {repo.language}<span>Last Updated: {repo.updated_at}</span></h5>
               <h5 className="button"><a href={repo.html_url}>Check it out</a></h5>
              </div>
     })

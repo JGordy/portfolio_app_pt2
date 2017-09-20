@@ -4,12 +4,20 @@
 }
 
 .App {
-  background-image: url(../images/brickwall.png);
+  background-image: url(../images/brickwall_@2X.png);
   background-position: center;
   background-attachment: fixed;
   min-height: 550px;
   height: 100%;
   text-align: center;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: deepskyblue;
 }
 
 .home {
@@ -81,12 +89,13 @@ h3 {
   padding: 10px;
 }
 
-.repo_name {
-
+.singleRepo span {
+  margin-left: 25px;
 }
 
 .language {
   color: slategray;
+  font-style: italic;
 }
 
 .button a {
@@ -110,6 +119,10 @@ h3 {
 .info a:hover {
   background-color: deepskyblue;
   color: white;
+}
+
+.event_heading {
+  padding-top: 15px;
 }
 
 .event_container, .event_reverse {
