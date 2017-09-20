@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import '../styles/App.css';
 
-export default class BaseLayout extends Component {
+class App extends Component {
   render() {
     return (
       <div className="App">
@@ -17,3 +17,5 @@ export default class BaseLayout extends Component {
     );
   }
 }
+
+export default App;
