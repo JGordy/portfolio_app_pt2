@@ -18,14 +18,13 @@ export default class Portfolio extends Component {
     })
   }
 
-
-
-
-
-
   render() {
     let repoData = this.state.repos.map((repo)=> {
-      return
+      return <div key={repo.id} className="singleRepo">
+              <h3>Project: {repo.name}</h3>
+              <h5><a href={repo.html_url}>Repo Url: {repo.html_url}</a></h5>
+
+             </div>
     })
     return(
       <div className='portfolio'>
