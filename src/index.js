@@ -23,7 +23,6 @@ ReactDOM.render(
           <Route path='/Portfolio' component={Portfolio}/>
           <Route path='/Contact' component={Contact}/>
           <Route path='/References' component={References}/>
-
         </Switch>
       </App>
     </BaseLayout>
