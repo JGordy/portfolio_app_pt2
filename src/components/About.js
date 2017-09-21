@@ -11,7 +11,7 @@ export default class About extends Component {
           <div className="event_info">
             <h3>Meet Fitz</h3>
             <h5 className="date">9/17/17</h5>
-            <p>This is the new addition to the family. My wife and I rescued him from a shelter in Alpharetta. Fitz is a two month old hound/pointer mix who loves sticks larger than he is, loves to cuddle on the couch, and take walks with us by the river. He is especially quiet for a hound, which are known for thier howling.</p>
+            <p>This is the new addition to the family. My wife and I rescued him from a shelter in Alpharetta. Fitz is a four month old hound/pointer mix who loves sticks larger than he is, loves to cuddle on the couch, and take walks with us by the river. He is especially quiet for a hound, which are known for thier howling.</p>
           </div>
         </div>
         <div className="event_reverse">

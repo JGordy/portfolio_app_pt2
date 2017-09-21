@@ -4,8 +4,8 @@ import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
-import BaseLayout from './components/Layout';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import BaseLayout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
