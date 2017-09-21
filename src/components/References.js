@@ -5,24 +5,24 @@ export default class References extends Component {
     return (
       <div className="reference_container">
         <div className="single_reference">
-          <h2 className="reference_name"></h2>
-          <h5 className="phone">Phone: 404-555-6978</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2 className="reference_name">Groot</h2>
+          <h5 className="phone">Phone: I am Groot</h5>
+          <p>I am Groot. I am Groot, I am Groot, <em>I am Groooooot</em>.</p>
         </div>
         <div className="single_reference">
-          <h2 className="reference_name"></h2>
+          <h2 className="reference_name">Clark Kent</h2>
           <h5 className="phone">Phone: 404-555-6277</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>This is a job for Superman.</p>
         </div>
         <div className="single_reference">
-          <h2 className="reference_name"></h2>
+          <h2 className="reference_name">Wesley</h2>
           <h5 className="phone">Phone: 404-555-3375</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>As you wish.</p>
         </div>
         <div className="single_reference">
-          <h2 className="reference_name"></h2>
+          <h2 className="reference_name">Tom Bombadil</h2>
           <h5 className="phone">Phone: 404-555-5900</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Old Tom Bombadil is a merry fellow, Bright blue his jacket is, and his boots are yellow. None has ever caught him yet, for Tom, he is the master: His songs are stronger songs, and his feet are faster.</p>
         </div>
       </div>
     );
