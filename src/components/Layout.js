@@ -21,9 +21,9 @@ export default class BaseLayout extends Component {
           <h1>Joe Gordy</h1>
         </header>
         <nav>
-        <NavLink style={navStyle} to='/'>Home</NavLink>
-        <NavLink style={navStyle} to='/About'>About</NavLink>
-        <NavLink style={navStyle} to='/Portfolio'>Portfolio</NavLink>
+        <NavLink activeClassName="selected" style={navStyle} exact to='/'>Home</NavLink>
+        <NavLink activeClassName="selected" style={navStyle} to='/About'>About</NavLink>
+        <NavLink activeClassName="selected" style={navStyle} to='/Portfolio'>Portfolio</NavLink>
         </nav>
         {this.props.children}
       </div>

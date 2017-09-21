@@ -17,9 +17,9 @@ ReactDOM.render(
         <Switch>
           <Route path='/About' component={About}/>
           <Route path='/Portfolio' component={Portfolio}/>
-          <Route path='/' component={Home}/>
+          <Route exact path='/' component={Home}/>
         </Switch>
-      </App>  
+      </App>
     </BaseLayout>
   </BrowserRouter>
   , document.getElementById('root'));
