@@ -24,6 +24,12 @@ export default class BaseLayout extends Component {
         <NavLink activeClassName="selected" style={navStyle} exact to='/'>Home</NavLink>
         <NavLink activeClassName="selected" style={navStyle} to='/About'>About</NavLink>
         <NavLink activeClassName="selected" style={navStyle} to='/Portfolio'>Portfolio</NavLink>
+        <NavLink activeClassName="selected"
+        style={navStyle}
+        to='/Contact'>Contact</NavLink>
+        <NavLink activeClassName="selected"
+        style={navStyle}
+        to='/References'>References</NavLink>
         </nav>
         {this.props.children}
       </div>
